@@ -87,9 +87,14 @@ def compute_worm_cycle(inp, steel, wheel):
     a_mm = a_target if a_target is not None else a_calc
     delta_a = (a_target - a_calc) if a_target is not None else None
 
-    # Lead angle
+    # Lead angle, axial pitch, lead, worm length
     gamma = math.atan2(z1 * mn, d1) if d1 > 0 else math.radians(5)
     gamma_deg = math.degrees(gamma)
+    px = mn * math.pi                   # axial pitch
+    pz = px * z1                        # lead (= axial pitch * z1)
+    L_worm = pz * 3.0 + 2.0 * mn       # typical worm length (approx)
+    # Wheel throat radius
+    r_throat = 0.5 * d2                 # throat radius for enveloping
 
     # Material properties
     E1 = steel.get("elastic", {}).get("E_GPa", 210.0)
@@ -190,6 +195,10 @@ def compute_worm_cycle(inp, steel, wheel):
         "x1": x1,
         "x2": x2,
         "gamma_deg": gamma_deg,
+        "px_mm": px,
+        "pz_mm": pz,
+        "L_worm_mm": L_worm,
+        "alpha_n_deg": math.degrees(alpha_n),
         "eta0": eta0,
         "Eprime_GPa": Eprime,
         "KA": KA,
