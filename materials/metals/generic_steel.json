@@ -1,0 +1,11 @@
+{
+  "name": "Alloy steel (generic)",
+  "standard": "Generic",
+  "type": "metal",
+  "aliases": [],
+  "elastic": {
+    "E_GPa": 210.0,
+    "nu": 0.3
+  },
+  "notes": "Generic steel placeholder."
+}

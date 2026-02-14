@@ -1,0 +1,14 @@
+{
+  "name": "37CrS4",
+  "standard": "EN 10083-3",
+  "type": "metal",
+  "aliases": [
+    "1.7038",
+    "AISI 5135 (approx)"
+  ],
+  "elastic": {
+    "E_GPa": 210.0,
+    "nu": 0.3
+  },
+  "notes": "Defaults for sizing. Adjust per heat treatment and your internal allowables."
+}

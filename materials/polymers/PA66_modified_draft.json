@@ -1,0 +1,56 @@
+{
+  "name": "PA66 modified (draft)",
+  "type": "polymer",
+  "elastic_T": {
+    "points_C_GPa": [
+      [
+        23,
+        3.0
+      ],
+      [
+        60,
+        2.4
+      ],
+      [
+        80,
+        2.0
+      ],
+      [
+        100,
+        1.6
+      ]
+    ]
+  },
+  "nu": 0.4,
+  "notes": "Draft PA66-based data for bring-up. Replace with supplier/test data.",
+  "SN": {
+    "contact_allow_MPa_vs_N": [
+      [
+        100000.0,
+        140
+      ],
+      [
+        1000000.0,
+        110
+      ],
+      [
+        10000000.0,
+        90
+      ]
+    ],
+    "root_allow_MPa_vs_N": [
+      [
+        100000.0,
+        55
+      ],
+      [
+        1000000.0,
+        45
+      ],
+      [
+        10000000.0,
+        35
+      ]
+    ]
+  }
+}
