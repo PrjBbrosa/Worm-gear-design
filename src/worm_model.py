@@ -56,6 +56,7 @@ def compute_worm_cycle(inp, steel, wheel):
     n1 = float(inp.get("n1_rpm", 3000))
     ratio = float(inp.get("ratio", 25))
     z1 = int(float(inp.get("z1", 2)))
+    z2_txt = str(inp.get("z2", "")).strip()
     mn = float(inp.get("mn_mm", 2.5))
     q = float(inp.get("q", 10))
     x1 = float(inp.get("x1", 0.0))
@@ -72,10 +73,25 @@ def compute_worm_cycle(inp, steel, wheel):
     life_h = float(inp.get("life_h", 3000))
     steps = int(float(inp.get("steps", 720)))
     rho_f = float(inp.get("rho_f_mm", 0.6))
+    beta_deg_in = float(inp.get("beta_deg", inp.get("gamma_deg", 0.0)))
 
     # Worm geometry
-    z2 = int(round(ratio * z1))
-    d1 = (q + 2.0 * x1) * mn          # worm pitch diameter
+    if z2_txt:
+        z2 = int(float(z2_txt))
+        ratio = z2 / z1 if z1 > 0 else ratio
+    else:
+        z2 = int(round(ratio * z1))
+
+    beta_deg = max(0.5, min(beta_deg_in, 80.0))
+    beta = math.radians(beta_deg)
+    if abs(math.tan(beta)) > 1e-6:
+        d1 = z1 * mn / math.tan(beta)
+    else:
+        d1 = (q + 2.0 * x1) * mn
+        beta = math.atan2(z1 * mn, d1) if d1 > 0 else math.radians(5.0)
+        beta_deg = math.degrees(beta)
+
+    q = d1 / mn - 2.0 * x1 if mn > 0 else q
     da1 = d1 + 2.0 * mn                # worm tip diameter
     df1 = d1 - 2.4 * mn                # worm root diameter
     d2 = (z2 + 2.0 * x2) * mn          # wheel pitch diameter
@@ -88,7 +104,7 @@ def compute_worm_cycle(inp, steel, wheel):
     delta_a = (a_target - a_calc) if a_target is not None else None
 
     # Lead angle, axial pitch, lead, worm length
-    gamma = math.atan2(z1 * mn, d1) if d1 > 0 else math.radians(5)
+    gamma = beta if d1 > 0 else math.radians(5)
     gamma_deg = math.degrees(gamma)
     px = mn * math.pi                   # axial pitch
     pz = px * z1                        # lead (= axial pitch * z1)
@@ -125,8 +141,10 @@ def compute_worm_cycle(inp, steel, wheel):
 
     # Contact stress proxy (Hertz-like)
     # p ~ sqrt(Fn * E' / (rho * b))
-    Fn_base = T1 * 1000.0 / (0.5 * d1) if d1 > 0 else 0  # N (T in Nm, d in mm)
-    rho_eq = 0.5 * d1 * math.sin(alpha_n) if d1 > 0 else 1.0  # mm equivalent curvature
+    Ft_base = (2.0 * T1 * 1000.0 / d1) if d1 > 0 else 0.0
+    denom_fn = math.cos(alpha_n) * max(math.sin(gamma), 1e-5)
+    Fn_base = Ft_base / denom_fn if denom_fn > 0 else 0.0
+    rho_eq = 0.5 * d1 * math.sin(alpha_n) * max(math.cos(gamma), 0.05) if d1 > 0 else 1.0
 
     K_total_H = KA * KV * KHb
     p_base = 0.418 * math.sqrt(Fn_base * K_total_H * Eprime * 1000 / (rho_eq * b)) if (rho_eq * b) > 0 else 0
@@ -194,6 +212,8 @@ def compute_worm_cycle(inp, steel, wheel):
         "delta_a_mm": delta_a,
         "x1": x1,
         "x2": x2,
+        "q": q,
+        "beta_deg": beta_deg,
         "gamma_deg": gamma_deg,
         "px_mm": px,
         "pz_mm": pz,

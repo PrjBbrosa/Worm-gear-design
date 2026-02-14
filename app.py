@@ -27,6 +27,7 @@ LANG_ZH = {
     "tab_mat": "  \u6750\u6599\u4e0eS-N  ",
     "tab_res": "  \u5e94\u529b\u4e0e\u6548\u7387  ",
     "tab_fat": "  \u5bff\u547d\u6821\u6838  ",
+    "tab_formula": "  \u516c\u5f0f\u8bf4\u660e  ",
     "menu_file": "  \u6587\u4ef6  ",
     "menu_export": "  \u5bfc\u51fa XLSX\uff08\u66f2\u7ebf\uff09...",
     "menu_exit": "  \u9000\u51fa",
@@ -36,7 +37,7 @@ LANG_ZH = {
     "calc_ratio": "  \u7531z\u7b97i  ", "worm_params": "\u8717\u6746\u53c2\u6570",
     "auto_calc_worm": "  \u81ea\u52a8\u8ba1\u7b97\u8717\u6746\u5c3a\u5bf8  ",
     "basic_params": "\u57fa\u672c\u53c2\u6570", "z1": "\u5934\u6570 z1", "mn_mm": "\u6cd5\u5411\u6a21\u6570 mn",
-    "q": "\u76f4\u5f84\u7cfb\u6570 q", "x1": "\u53d8\u4f4d\u7cfb\u6570 x1",
+    "q": "\u76f4\u5f84\u7cfb\u6570 q", "x1": "\u53d8\u4f4d\u7cfb\u6570 x1", "beta_deg": "\u8717\u6746\u87ba\u65cb\u89d2 beta",
     "alpha_n_deg": "\u6cd5\u5411\u538b\u529b\u89d2 an", "rho_f_mm": "\u9f7f\u6839\u5706\u89d2 rf",
     "computed_dims": "\u8ba1\u7b97\u5c3a\u5bf8\uff08\u81ea\u52a8\uff09",
     "d1_mm": "\u5206\u5ea6\u5706\u76f4\u5f84 d1", "da1_mm": "\u9f7f\u9876\u5706\u76f4\u5f84 da1",
@@ -57,7 +58,7 @@ LANG_ZH = {
     "temp_C": "\u5de5\u4f5c\u6e29\u5ea6",
     "btn_refresh": "\u66f4\u65b0\u793a\u610f\u56fe", "btn_calc": "\u8ba1\u7b97\u5e76\u7ed8\u56fe",
     "geom_check_wait": "\u51e0\u4f55\u6821\u6838\u4fe1\u606f\uff1a\u7b49\u5f85\u8f93\u5165\u53c2\u6570\u3002",
-    "diagram_title": "Worm-Wheel Mesh Cross Section",
+    "diagram_title": "Worm-Wheel Focused Mesh Section",
     "worm_label": "Worm", "wheel_label": "Wheel",
     "mat_worm_title": "\u8717\u6746\u6750\u6599",
     "mat_select": "\u9009\u62e9\u6750\u6599", "mat_load": "\u52a0\u8f7d", "mat_import": "\u5bfc\u5165 JSON...",
@@ -76,6 +77,7 @@ LANG_ZH = {
     "res_footer": "\u8f7b\u91cf\u4ee3\u7406\u6a21\u578b\u7ed3\u679c\uff08\u542b KISSsoft \u98ce\u683c\u4fee\u6b63\u7cfb\u6570\uff09",
     "worm_output": "\u8717\u6746\u8f93\u51fa\u53c2\u6570", "wheel_output": "\u8717\u8f6e\u8f93\u51fa\u53c2\u6570",
     "fat_wait": '\u70b9\u51fb"\u8ba1\u7b97\u5e76\u7ed8\u56fe"\u540e\uff0c\u6b64\u5904\u663e\u793a\u75b2\u52b3\u635f\u4f24\u4e0e\u5b89\u5168\u7cfb\u6570\u6c47\u603b\u3002',
+    "formula_title": "\u516c\u5f0f\u4e0e\u53c2\u6570\u8bf4\u660e\uff08\u5ba1\u6838\u7528\uff09",
     "lang_toggle": "EN / \u4e2d",
     "N_m": "N\u00b7m", "rpm": "rpm", "mm": "mm", "deg": "deg", "h": "h",
     "pts": "\u70b9", "C": "\u00b0C",
@@ -84,7 +86,7 @@ LANG_ZH = {
 LANG_EN = {
     "app_title": "WormGear Studio \u2014 Worm Gear Design & Check",
     "tab_geom": "  Geometry  ", "tab_mat": "  Material & S-N  ",
-    "tab_res": "  Stress & Efficiency  ", "tab_fat": "  Fatigue Check  ",
+    "tab_res": "  Stress & Efficiency  ", "tab_fat": "  Fatigue Check  ", "tab_formula": "  Formula Notes  ",
     "menu_file": "  File  ", "menu_export": "  Export XLSX (curves)...",
     "menu_exit": "  Exit",
     "drive_params": "Drive Parameters",
@@ -93,7 +95,7 @@ LANG_EN = {
     "calc_ratio": "  Calc i from z  ", "worm_params": "Worm Parameters",
     "auto_calc_worm": "  Auto-Calc Worm Dims  ",
     "basic_params": "Basic Parameters", "z1": "No. of Starts z1",
-    "mn_mm": "Normal Module mn", "q": "Diameter Factor q", "x1": "Profile Shift x1",
+    "mn_mm": "Normal Module mn", "q": "Diameter Factor q", "x1": "Profile Shift x1", "beta_deg": "Worm Helix Angle beta",
     "alpha_n_deg": "Normal Press. Angle an", "rho_f_mm": "Root Fillet rf",
     "computed_dims": "Computed Dimensions",
     "d1_mm": "Pitch Dia. d1", "da1_mm": "Tip Dia. da1", "df1_mm": "Root Dia. df1",
@@ -112,7 +114,7 @@ LANG_EN = {
     "temp_C": "Operating Temp.",
     "btn_refresh": "Refresh Diagram", "btn_calc": "Calculate & Plot",
     "geom_check_wait": "Geometry check: waiting for input.",
-    "diagram_title": "Worm-Wheel Mesh Cross Section",
+    "diagram_title": "Worm-Wheel Focused Mesh Section",
     "worm_label": "Worm", "wheel_label": "Wheel",
     "mat_worm_title": "Worm Material",
     "mat_select": "Select Material", "mat_load": "Load", "mat_import": "Import JSON...",
@@ -131,6 +133,7 @@ LANG_EN = {
     "res_footer": "Lightweight proxy model results (KISSsoft-style correction factors)",
     "worm_output": "Worm Output", "wheel_output": "Wheel Output",
     "fat_wait": 'Click "Calculate & Plot" to see fatigue damage & safety factor summary.',
+    "formula_title": "Formulas and Parameter Notes (for review)",
     "lang_toggle": "EN / \u4e2d",
     "N_m": "N\u00b7m", "rpm": "rpm", "mm": "mm", "deg": "deg", "h": "h",
     "pts": "pts", "C": "\u00b0C",
@@ -227,7 +230,7 @@ class App(tk.Tk):
         self._defaults = {
             "T1_Nm": "6.0", "n1_rpm": "3000", "ratio": "25",
             "life_h": "3000", "steps": "720",
-            "z1": "2", "mn_mm": "2.5", "q": "10", "x1": "0.0",
+            "z1": "2", "mn_mm": "2.5", "q": "10", "x1": "0.0", "beta_deg": "11.5",
             "alpha_n_deg": "20", "rho_f_mm": "0.6",
             "da1_mm": "", "df1_mm": "", "d1_mm": "",
             "gamma_deg": "", "px_mm": "", "pz_mm": "", "L_worm_mm": "",
@@ -274,6 +277,8 @@ class App(tk.Tk):
         self.nb.tab(self.tab_mat, text=self._t("tab_mat"))
         self.nb.tab(self.tab_res, text=self._t("tab_res"))
         self.nb.tab(self.tab_fat, text=self._t("tab_fat"))
+        self.nb.tab(self.tab_formula, text=self._t("tab_formula"))
+        self._refresh_formula_views()
         self.refresh_geom_plot()
 
     def _track(self, widget, key):
@@ -399,16 +404,19 @@ class App(tk.Tk):
         self.tab_mat  = ttk.Frame(self.nb)
         self.tab_res  = ttk.Frame(self.nb)
         self.tab_fat  = ttk.Frame(self.nb)
+        self.tab_formula = ttk.Frame(self.nb)
 
         self.nb.add(self.tab_geom, text=self._t("tab_geom"))
         self.nb.add(self.tab_mat,  text=self._t("tab_mat"))
         self.nb.add(self.tab_res,  text=self._t("tab_res"))
         self.nb.add(self.tab_fat,  text=self._t("tab_fat"))
+        self.nb.add(self.tab_formula, text=self._t("tab_formula"))
 
         self._build_geom_tab()
         self._build_mat_tab()
         self._build_res_tab()
         self._build_fat_tab()
+        self._build_formula_tab()
 
     # ==================================================================
     # Helpers
@@ -503,6 +511,7 @@ class App(tk.Tk):
         self._entry(worm_card, "mn_mm", "mn_mm", self._t("mm"))
         self._entry(worm_card, "q", "q", "")
         self._entry(worm_card, "x1", "x1", "")
+        self._entry(worm_card, "beta_deg", "beta_deg", self._t("deg"))
         self._entry(worm_card, "alpha_n_deg", "alpha_n_deg", self._t("deg"))
         self._entry(worm_card, "rho_f_mm", "rho_f_mm", self._t("mm"))
 
@@ -573,7 +582,9 @@ class App(tk.Tk):
                              highlightbackground=CLR_BORDER, highlightthickness=1)
         diag_card.pack(fill="both", expand=True)
         fig = Figure(figsize=(8, 7), dpi=100, facecolor=CLR_CARD)
-        self.ax_geom = fig.add_subplot(111)
+        gs = fig.add_gridspec(2, 1, height_ratios=[1.15, 0.95], hspace=0.18)
+        self.ax_geom_mesh = fig.add_subplot(gs[0, 0])
+        self.ax_geom_axial = fig.add_subplot(gs[1, 0])
         self.canvas_geom = FigureCanvasTkAgg(fig, master=diag_card)
         self.canvas_geom.get_tk_widget().pack(fill="both", expand=True, padx=2, pady=2)
         self.geom_check_var = tk.StringVar(value=self._t("geom_check_wait"))
@@ -591,14 +602,25 @@ class App(tk.Tk):
 
     def _auto_calc_worm(self):
         mn = self._safe_float("mn_mm", 2.5)
-        q = self._safe_float("q", 10)
         x1 = self._safe_float("x1", 0.0)
         z1 = int(self._safe_float("z1", 2))
+        q = self._safe_float("q", 10)
+        beta_deg = self._safe_float("beta_deg", 0.0)
+        beta_rad = math.radians(beta_deg)
 
-        d1 = (q + 2.0 * x1) * mn
+        if 0.5 < beta_deg < 80.0 and abs(math.tan(beta_rad)) > 1e-6:
+            d1 = z1 * mn / math.tan(beta_rad)
+            q = d1 / mn - 2.0 * x1 if mn > 0 else q
+            self.inputs["q"].set(f"{q:.3f}")
+        else:
+            d1 = (q + 2.0 * x1) * mn
+            beta_rad = math.atan2(z1 * mn, d1) if d1 > 0 else math.radians(5.0)
+            beta_deg = math.degrees(beta_rad)
+            self.inputs["beta_deg"].set(f"{beta_deg:.3f}")
+
         da1 = d1 + 2.0 * mn
         df1 = d1 - 2.4 * mn
-        gamma = math.degrees(math.atan2(z1 * mn, d1)) if d1 > 0 else 0
+        gamma = math.degrees(math.atan2(z1 * mn, d1)) if d1 > 0 else beta_deg
         px = mn * math.pi
         pz = px * z1
         L_worm = pz * 3.0 + 2.0 * mn
@@ -648,8 +670,6 @@ class App(tk.Tk):
 
     def _calc_center_distance(self):
         mn = self._safe_float("mn_mm", 2.5)
-        q = self._safe_float("q", 10)
-        x1 = self._safe_float("x1", 0.0)
         x2 = self._safe_float("x2", 0.0)
         try:
             z2 = int(float(self.inputs["z2"].get()))
@@ -657,7 +677,13 @@ class App(tk.Tk):
             ratio = self._safe_float("ratio", 25)
             z1 = int(self._safe_float("z1", 2))
             z2 = int(round(ratio * z1))
-        a = 0.5 * mn * (q + z2 + 2.0 * (x1 + x2))
+        d1 = self._safe_float("d1_mm", 0.0)
+        if d1 <= 0:
+            q = self._safe_float("q", 10)
+            x1 = self._safe_float("x1", 0.0)
+            d1 = (q + 2.0 * x1) * mn
+        d2 = (z2 + 2.0 * x2) * mn
+        a = 0.5 * (d1 + d2)
         self.inputs["a_target_mm"].set(f"{a:.3f}")
 
     def _on_refresh_diagram(self):
@@ -669,19 +695,21 @@ class App(tk.Tk):
     # Geometry diagram (uses ASCII-safe labels to avoid CJK garble)
     # ==================================================================
     def refresh_geom_plot(self):
-        ax = self.ax_geom
-        ax.clear()
-        ax.set_aspect("equal", adjustable="datalim")
-        ax.axis("off")
-        fig = ax.get_figure()
+        ax1 = self.ax_geom_mesh
+        ax2 = self.ax_geom_axial
+        ax1.clear()
+        ax2.clear()
+        for ax in (ax1, ax2):
+            ax.set_aspect("equal", adjustable="box")
+            ax.axis("off")
+            ax.set_facecolor(CLR_CARD)
+        fig = ax1.get_figure()
         fig.set_facecolor(CLR_CARD)
-        ax.set_facecolor(CLR_CARD)
 
-        # Font properties - use the detected font with explicit prop
         fp = {"fontfamily": _MPL_FONT or "DejaVu Sans"}
+        ds = 8
 
         mn = self._safe_float("mn_mm", 2.5)
-        q = self._safe_float("q", 10)
         x1 = self._safe_float("x1", 0.0)
         x2 = self._safe_float("x2", 0.0)
         z1 = int(self._safe_float("z1", 2))
@@ -691,8 +719,10 @@ class App(tk.Tk):
             z2 = int(float(self.inputs["z2"].get()))
         except (ValueError, TypeError):
             pass
-
-        d1 = (q + 2.0 * x1) * mn
+        d1 = self._safe_float("d1_mm", 0.0)
+        if d1 <= 0:
+            q = self._safe_float("q", 10)
+            d1 = (q + 2.0 * x1) * mn
         da1 = d1 + 2.0 * mn
         df1 = d1 - 2.4 * mn
         d2 = (z2 + 2.0 * x2) * mn
@@ -700,183 +730,145 @@ class App(tk.Tk):
         df2 = d2 - 2.0 * mn * (1.2 - x2)
         a_calc = 0.5 * (d1 + d2)
         b2 = self._safe_float("b2_mm", 18)
-        gamma = math.degrees(math.atan2(z1 * mn, d1)) if d1 > 0 else 0
+        alpha_n = self._safe_float("alpha_n_deg", 20)
+        beta_deg = self._safe_float("beta_deg", 0.0)
+        if beta_deg <= 0 and d1 > 0:
+            beta_deg = math.degrees(math.atan2(z1 * mn, d1))
+        gamma = math.degrees(math.atan2(z1 * mn, d1)) if d1 > 0 else beta_deg
         px = mn * math.pi
-
+        pz = px * z1
         a_target_txt = self.inputs.get("a_target_mm", tk.StringVar(value="")).get().strip()
         a_target = float(a_target_txt) if a_target_txt else None
         a_display = a_target if a_target else a_calc
-
         if a_target is not None:
-            delta = a_target - a_calc
-            xsum_need = a_target / mn - 0.5 * (q + z2) if mn > 0 else 0
             self.geom_check_var.set(
-                f"a_calc={a_calc:.3f} mm,  a_target={a_target:.3f} mm,  "
-                f"da={delta:+.3f} mm,  x1+x2 ~ {xsum_need:.4f}")
+                f"a_calc={a_calc:.3f} mm, a_target={a_target:.3f} mm, "
+                f"da={a_target - a_calc:+.3f} mm, beta={beta_deg:.2f} deg")
         else:
-            self.geom_check_var.set(f"a_calc = {a_calc:.3f} mm")
+            self.geom_check_var.set(f"a_calc={a_calc:.3f} mm, beta={beta_deg:.2f} deg")
 
-        # Scale
-        scale = 60.0 / max(d2, 1)
-        r1  = 0.5 * d1  * scale
-        ra1 = 0.5 * da1 * scale
-        rf1 = max(0.5 * df1 * scale, 0.5)
-        r2  = 0.5 * d2  * scale
+        # ---------- Section A: normal mesh section ----------
+        scale = 68.0 / max(d2, 1)
+        r2 = 0.5 * d2 * scale
         ra2 = 0.5 * da2 * scale
-        rf2 = max(0.5 * df2 * scale, 0.5)
-        a_s = a_display * scale
+        rf2 = max(0.5 * df2 * scale, 0.8)
+        cx_wheel, cy_wheel = 0.0, 28.0
+        cx_worm, cy_worm = 0.0, cy_wheel - a_display * scale
+        rw = max(0.5 * d1 * scale, 10.0)
+        tooth_depth = max((ra2 - rf2) * 0.95, 1.5)
 
-        cx_wheel, cy_wheel = 0, 0
-        cx_worm, cy_worm = 0, a_s
+        # Wheel outline in attachment-like style
+        n_draw_teeth = max(10, min(z2, 28))
+        phi = np.linspace(0, 2 * np.pi, 1000, endpoint=False)
+        mod = 0.5 * (1.0 + np.cos(n_draw_teeth * phi))
+        radius = r2 + tooth_depth * (mod ** 1.9) - 0.48 * tooth_depth
+        xw = cx_wheel + radius * np.cos(phi)
+        yw = cy_wheel + radius * np.sin(phi)
+        ax1.fill(xw, yw, facecolor="#EEF1F6", edgecolor="#626670", linewidth=1.4, zorder=2)
+        ax1.add_patch(mpatches.Circle((cx_wheel, cy_wheel), r2 * 0.33,
+                                      facecolor=CLR_CARD, edgecolor="#626670", linewidth=1.2, zorder=3))
+        ax1.add_patch(mpatches.Circle((cx_wheel, cy_wheel), r2,
+                                      fill=False, edgecolor="#8C8F97", linewidth=1.0,
+                                      linestyle=(0, (4, 3)), zorder=2))
+        ax1.plot([cx_wheel - ra2 * 1.18, cx_wheel + ra2 * 1.18], [cy_wheel, cy_wheel],
+                 color="#9CA0A8", linewidth=0.9, linestyle=(0, (4, 2)))
+        ax1.plot([cx_wheel, cx_wheel], [cy_wheel - ra2 * 1.18, cy_wheel + ra2 * 1.18],
+                 color="#9CA0A8", linewidth=0.9, linestyle=(0, (4, 2)))
 
-        # ---- Wheel cross section ----
-        ax.add_patch(mpatches.Circle((cx_wheel, cy_wheel), ra2, fill=False,
-                     edgecolor=CLR_WHEEL, linewidth=1.5, linestyle="-", alpha=0.5))
-        ax.add_patch(mpatches.Circle((cx_wheel, cy_wheel), r2, fill=False,
-                     edgecolor=CLR_WHEEL, linewidth=2.0))
-        ax.add_patch(mpatches.Circle((cx_wheel, cy_wheel), rf2, fill=False,
-                     edgecolor=CLR_WHEEL, linewidth=1.5, linestyle="--", alpha=0.5))
-        ax.plot(cx_wheel, cy_wheel, "+", color=CLR_WHEEL, markersize=10, markeredgewidth=1.5)
+        # Worm generating arc and teeth traces below wheel
+        lower_r = max(rw * 1.55, ra2 * 0.95)
+        ax1.add_patch(mpatches.Arc((cx_worm, cy_worm), 2 * lower_r, 2 * lower_r * 0.86,
+                                   theta1=24, theta2=156, color="#7B7F88", linewidth=1.2))
+        ax1.add_patch(mpatches.Arc((cx_worm, cy_worm), 2 * (lower_r - tooth_depth * 0.7), 2 * (lower_r - tooth_depth * 0.7) * 0.86,
+                                   theta1=24, theta2=156, color="#A1A6B0", linewidth=1.0, linestyle=(0, (5, 3))))
+        ts = np.linspace(0.18, 0.82, 7)
+        for t in ts:
+            ang = math.radians(24 + 132 * t)
+            rr = lower_r - 0.15 * tooth_depth * math.cos(5 * t * np.pi)
+            x0 = cx_worm + rr * math.cos(ang)
+            y0 = cy_worm + 0.86 * rr * math.sin(ang)
+            dx = -math.sin(ang)
+            dy = math.cos(ang)
+            ax1.plot([x0 - 2.8 * dx, x0 + 2.8 * dx], [y0 - 2.8 * dy, y0 + 2.8 * dy],
+                     color="#5E636D", linewidth=1.1)
 
-        # Draw teeth
-        tooth_angles = np.linspace(0, 2 * np.pi, max(z2, 1), endpoint=False)
-        n_draw = min(z2, 30)
-        for i, ang in enumerate(tooth_angles):
-            if i >= n_draw and i < z2 - 2:
-                continue
-            hw = np.pi * mn * scale / (2 * max(d2 * scale, 1)) * r2
-            ang_hw = hw / r2 if r2 > 0 else 0.05
-            pts = [
-                (cx_wheel + rf2 * np.cos(ang - ang_hw), cy_wheel + rf2 * np.sin(ang - ang_hw)),
-                (cx_wheel + ra2 * np.cos(ang - ang_hw * 0.5), cy_wheel + ra2 * np.sin(ang - ang_hw * 0.5)),
-                (cx_wheel + ra2 * np.cos(ang + ang_hw * 0.5), cy_wheel + ra2 * np.sin(ang + ang_hw * 0.5)),
-                (cx_wheel + rf2 * np.cos(ang + ang_hw), cy_wheel + rf2 * np.sin(ang + ang_hw)),
-            ]
-            ax.plot([p[0] for p in pts], [p[1] for p in pts],
-                    color=CLR_WHEEL, linewidth=0.7, alpha=0.45)
+        # Contact marker and action line
+        contact = (cx_wheel, cy_wheel - r2)
+        ax1.scatter([contact[0]], [contact[1]], s=28, color="#111111", zorder=6)
+        ax1.plot([cx_wheel + r2 * 0.14, cx_worm + lower_r * 0.52],
+                 [cy_wheel - r2 * 0.87, cy_worm + lower_r * 0.38],
+                 color="#7E838D", linewidth=1.0)
 
-        # ---- Worm axial cross section ----
-        worm_len = b2 * scale * 1.8
-        half_len = worm_len / 2
+        # Dimension and labels
+        ax1.annotate("", xy=(ra2 * 1.22, cy_wheel), xytext=(ra2 * 1.22, cy_worm),
+                     arrowprops=dict(arrowstyle="<->", color=CLR_DIM, lw=1.1))
+        ax1.text(ra2 * 1.26, 0.5 * (cy_wheel + cy_worm), f"a={a_display:.2f} mm",
+                 fontsize=ds, color=CLR_DIM, rotation=90, va="center", **fp)
+        ax1.text(cx_wheel, cy_wheel + ra2 * 1.26, self._t("wheel_label"),
+                 fontsize=10, color="#4A5D8C", fontweight="bold", ha="center", **fp)
+        ax1.text(cx_worm, cy_worm - lower_r * 0.55, self._t("worm_label"),
+                 fontsize=10, color="#8A4D49", fontweight="bold", ha="center", **fp)
+        ax1.text(0.02, 0.03, "Section A: normal mesh section", transform=ax1.transAxes,
+                 fontsize=8, color=CLR_TEXT2, ha="left", **fp)
+        lim_x = ra2 * 1.35
+        ax1.set_xlim(-lim_x, lim_x)
+        ax1.set_ylim(cy_worm - lower_r * 0.88, cy_wheel + ra2 * 1.36)
 
-        ax.add_patch(mpatches.FancyBboxPatch(
-            (cx_worm - half_len, cy_worm - rf1), worm_len, 2 * rf1,
-            boxstyle="round,pad=0.5", facecolor=CLR_WORM, alpha=0.06,
-            edgecolor=CLR_WORM, linewidth=1.0))
+        # ---------- Section B: axial section ----------
+        scale2 = 62.0 / max(d2, 1)
+        r1 = 0.5 * d1 * scale2
+        ra1 = 0.5 * da1 * scale2
+        r2b = 0.5 * d2 * scale2
+        cx2, cy2 = 0.0, 0.0
+        worm_len = b2 * scale2 * 1.85
+        half_len = worm_len / 2.0
+        wheel_cy = a_display * scale2
 
-        for y_sign in [1, -1]:
-            ax.plot([cx_worm - half_len, cx_worm + half_len],
-                    [cy_worm + y_sign * ra1, cy_worm + y_sign * ra1],
-                    color=CLR_WORM, linewidth=1.0, linestyle="--", alpha=0.45)
-            ax.plot([cx_worm - half_len, cx_worm + half_len],
-                    [cy_worm + y_sign * r1, cy_worm + y_sign * r1],
-                    color=CLR_WORM, linewidth=1.8)
-            ax.plot([cx_worm - half_len, cx_worm + half_len],
-                    [cy_worm + y_sign * rf1, cy_worm + y_sign * rf1],
-                    color=CLR_WORM, linewidth=1.0, linestyle="--", alpha=0.45)
+        ax2.add_patch(mpatches.FancyBboxPatch(
+            (cx2 - half_len, cy2 - ra1), worm_len, 2 * ra1,
+            boxstyle="round,pad=0.22,rounding_size=4",
+            facecolor="#FFF0EE", edgecolor="#A35B55", linewidth=1.2))
+        ax2.plot([cx2 - half_len, cx2 + half_len], [cy2 + r1, cy2 + r1], color="#A35B55", linewidth=1.7)
+        ax2.plot([cx2 - half_len, cx2 + half_len], [cy2 - r1, cy2 - r1], color="#A35B55", linewidth=1.7)
+        pitch_s = max(px * scale2, 2.4)
+        slope = math.tan(math.radians(beta_deg)) * 0.28
+        for i in range(-4, 5):
+            x0 = cx2 + i * pitch_s * 0.58
+            ax2.plot([x0 - pitch_s * 0.42, x0 + pitch_s * 0.42],
+                     [cy2 - ra1 * 0.82 + slope * (x0 - cx2), cy2 + ra1 * 0.82 + slope * (x0 - cx2)],
+                     color="#B96E67", linewidth=0.9, alpha=0.85)
 
-        # Thread profiles
-        pitch_axial = px * scale
-        if pitch_axial > 0.5:
-            n_threads = int(worm_len / pitch_axial) + 2
-            for t in range(n_threads):
-                tx = cx_worm - half_len + t * pitch_axial
-                if tx > cx_worm + half_len + pitch_axial:
-                    break
-                xs_t = [tx, tx + pitch_axial * 0.15, tx + pitch_axial * 0.35, tx + pitch_axial * 0.5]
-                for y_sign in [1, -1]:
-                    ys = [cy_worm + y_sign * rf1, cy_worm + y_sign * ra1,
-                          cy_worm + y_sign * ra1, cy_worm + y_sign * rf1]
-                    ax.plot(xs_t, ys, color=CLR_WORM, linewidth=0.8, alpha=0.5, clip_on=True)
+        ax2.add_patch(mpatches.Arc((cx2, wheel_cy), 2 * r2b * 1.05, 2 * r2b * 0.86,
+                                   theta1=196, theta2=344, color="#4F74B3", linewidth=2.0))
+        ax2.add_patch(mpatches.Arc((cx2, wheel_cy), 2 * r2b * 0.88, 2 * r2b * 0.72,
+                                   theta1=196, theta2=344, color="#7A98CA", linewidth=1.2, linestyle=(0, (4, 2))))
+        ax2.scatter([0], [wheel_cy - r2b * 0.42], s=24, color="#111111", zorder=6)
 
-        # Center axis
-        ax.plot([cx_worm - half_len - 5, cx_worm + half_len + 5],
-                [cy_worm, cy_worm], color=CLR_WORM, linewidth=0.7, linestyle="-.", alpha=0.4)
-        ax.plot(cx_worm, cy_worm, "+", color=CLR_WORM, markersize=10, markeredgewidth=1.5)
+        ax2.annotate("", xy=(half_len + 8, cy2), xytext=(half_len + 8, wheel_cy),
+                     arrowprops=dict(arrowstyle="<->", color=CLR_DIM, lw=1.0))
+        ax2.text(half_len + 10, 0.5 * wheel_cy, f"a={a_display:.2f}", fontsize=ds,
+                 color=CLR_DIM, rotation=90, va="center", **fp)
+        ax2.annotate("", xy=(-half_len, cy2 - ra1 - 5), xytext=(half_len, cy2 - ra1 - 5),
+                     arrowprops=dict(arrowstyle="<->", color=CLR_DIM, lw=1.0))
+        ax2.text(0, cy2 - ra1 - 7.8, f"b2={b2:.1f} mm", fontsize=ds, color=CLR_DIM, ha="center", **fp)
+        ax2.text(-half_len + 2, cy2 + ra1 + 4.5, f"beta={beta_deg:.2f} deg", fontsize=8, color="#8A4D49", **fp)
+        ax2.text(0.02, 0.03, "Section B: axial section", transform=ax2.transAxes,
+                 fontsize=8, color=CLR_TEXT2, ha="left", **fp)
 
-        # ===== Dimension lines (all ASCII-safe) =====
-        ds = 8  # dim font size
-
-        # Center distance
-        ax.annotate("", xy=(cx_worm + half_len + 12, cy_worm),
-                    xytext=(cx_worm + half_len + 12, cy_wheel),
-                    arrowprops=dict(arrowstyle="<->", color=CLR_DIM, lw=1.3))
-        ax.text(cx_worm + half_len + 14, (cy_worm + cy_wheel) / 2,
-                f"a = {a_display:.2f}", fontsize=ds, color=CLR_DIM, va="center",
-                rotation=90, **fp)
-
-        # Worm d1
-        bx = cx_worm - half_len - 8
-        ax.annotate("", xy=(bx, cy_worm + r1), xytext=(bx, cy_worm - r1),
-                    arrowprops=dict(arrowstyle="<->", color=CLR_WORM, lw=1.2))
-        ax.text(bx - 2, cy_worm, f"d1={d1:.2f}", fontsize=ds, color=CLR_WORM,
-                va="center", ha="right", **fp)
-
-        # Worm da1
-        bx2 = cx_worm - half_len - 16
-        ax.annotate("", xy=(bx2, cy_worm + ra1), xytext=(bx2, cy_worm - ra1),
-                    arrowprops=dict(arrowstyle="<->", color=CLR_WORM, lw=1.0, alpha=0.6))
-        ax.text(bx2 - 2, cy_worm, f"da1={da1:.2f}", fontsize=7, color=CLR_WORM,
-                va="center", ha="right", alpha=0.7, **fp)
-
-        # Wheel d2
-        by = cy_wheel - ra2 - 8
-        ax.annotate("", xy=(cx_wheel - r2, by), xytext=(cx_wheel + r2, by),
-                    arrowprops=dict(arrowstyle="<->", color=CLR_WHEEL, lw=1.2))
-        ax.text(cx_wheel, by - 3, f"d2={d2:.2f}", fontsize=ds, color=CLR_WHEEL,
-                va="top", ha="center", **fp)
-
-        # Wheel da2
-        by2 = cy_wheel - ra2 - 16
-        ax.annotate("", xy=(cx_wheel - ra2, by2), xytext=(cx_wheel + ra2, by2),
-                    arrowprops=dict(arrowstyle="<->", color=CLR_WHEEL, lw=1.0, alpha=0.6))
-        ax.text(cx_wheel, by2 - 3, f"da2={da2:.2f}", fontsize=7, color=CLR_WHEEL,
-                va="top", ha="center", alpha=0.7, **fp)
-
-        # b2
-        ax.annotate("", xy=(cx_worm - half_len, cy_worm + ra1 + 6),
-                    xytext=(cx_worm + half_len, cy_worm + ra1 + 6),
-                    arrowprops=dict(arrowstyle="<->", color=CLR_DIM, lw=1.0))
-        ax.text(cx_worm, cy_worm + ra1 + 9, f"b2={b2:.1f}", fontsize=ds,
-                color=CLR_DIM, ha="center", va="bottom", **fp)
-
-        # Labels (ASCII safe)
-        worm_lbl = self._t("worm_label")
-        wheel_lbl = self._t("wheel_label")
-        ax.text(cx_worm, cy_worm + ra1 + 18, worm_lbl, fontsize=12, color=CLR_WORM,
-                ha="center", va="bottom", fontweight="bold", **fp)
-        ax.text(cx_wheel, cy_wheel - ra2 - 26, wheel_lbl, fontsize=12, color=CLR_WHEEL,
-                ha="center", va="top", fontweight="bold", **fp)
-
-        # Info box (ASCII-safe params)
         info_text = (
-            f"mn={mn}  z1={z1}  z2={z2}\n"
-            f"x1={x1:.3f}  x2={x2:.3f}\n"
-            f"i={ratio:.1f}  an={self._safe_float('alpha_n_deg', 20):.1f}\n"
-            f"gamma={gamma:.2f}  px={px:.2f}"
+            f"mn={mn:.3f}  z1={z1}  z2={z2}\n"
+            f"alpha_n={alpha_n:.1f} deg  beta={beta_deg:.2f} deg\n"
+            f"gamma={gamma:.2f} deg  px={px:.2f} mm  pz={pz:.2f} mm"
         )
-        ax.text(0.02, 0.02, info_text, transform=ax.transAxes, fontsize=8,
-                color=CLR_TEXT2, va="bottom", ha="left",
-                bbox=dict(boxstyle="round,pad=0.4", facecolor=CLR_SECTION,
-                          edgecolor=CLR_BORDER, alpha=0.9),
-                family="monospace")
-
-        # Legend
-        legend_items = [
-            mpatches.Patch(facecolor=CLR_WORM, alpha=0.3, edgecolor=CLR_WORM, label=worm_lbl),
-            mpatches.Patch(facecolor=CLR_WHEEL, alpha=0.3, edgecolor=CLR_WHEEL, label=wheel_lbl),
-        ]
-        ax.legend(handles=legend_items, loc="upper right", fontsize=9, framealpha=0.9,
-                  edgecolor=CLR_BORDER, prop={"family": _MPL_FONT or "DejaVu Sans"})
-
-        ax.set_title(self._t("diagram_title"), fontsize=13, color=CLR_TEXT, pad=10,
-                     fontweight="bold", **fp)
-
-        ax.autoscale_view()
-        margin = max(ra2, a_s + ra1) * 0.3
-        ax.set_xlim(-(ra2 + margin + 22), ra2 + margin + 22)
-        ax.set_ylim(-(ra2 + margin + 30), a_s + ra1 + margin + 22)
-        fig.tight_layout()
+        ax2.text(0.98, 0.98, info_text, transform=ax2.transAxes, fontsize=8,
+                 color=CLR_TEXT2, va="top", ha="right",
+                 bbox=dict(boxstyle="round,pad=0.35", facecolor=CLR_SECTION,
+                           edgecolor=CLR_BORDER, alpha=0.96),
+                 family="monospace")
+        ax2.set_xlim(-half_len - 16, half_len + 18)
+        ax2.set_ylim(cy2 - ra1 - 14, wheel_cy + r2b + 10)
+        ax1.set_title(self._t("diagram_title"), fontsize=13, color=CLR_TEXT, pad=6,
+                      fontweight="bold", **fp)
         self.canvas_geom.draw()
 
     # ==================================================================
@@ -1169,6 +1161,194 @@ class App(tk.Tk):
         self.fat_text.insert("1.0", self._t("fat_wait"))
 
     # ==================================================================
+    # Tab 5: Formula Notes
+    # ==================================================================
+    def _build_formula_tab(self):
+        top = tk.Frame(self.tab_formula, bg=CLR_BG)
+        top.pack(fill="both", expand=True, padx=10, pady=10)
+
+        card = tk.Frame(top, bg=CLR_CARD, highlightbackground=CLR_BORDER, highlightthickness=1)
+        card.pack(fill="both", expand=True)
+
+        self._track(
+            tk.Label(card, text=self._t("formula_title"), bg=CLR_CARD, fg=CLR_TEXT,
+                     font=("", 12, "bold"), anchor="w"),
+            "formula_title").pack(fill="x", padx=12, pady=(10, 6))
+        body = tk.Frame(card, bg=CLR_CARD)
+        body.pack(fill="both", expand=True, padx=10, pady=(0, 10))
+        left = tk.Frame(body, bg=CLR_CARD)
+        left.pack(side="left", fill="both", expand=True)
+        right = tk.Frame(body, bg=CLR_CARD)
+        right.pack(side="left", fill="both", expand=True, padx=(10, 0))
+
+        self.formula_nb = ttk.Notebook(left)
+        self.formula_nb.pack(fill="both", expand=True)
+
+        self.formula_tabs = {}
+        for key in ("geom", "stress", "fatigue"):
+            tab = ttk.Frame(self.formula_nb)
+            self.formula_nb.add(tab, text=key)
+            tree = ttk.Treeview(tab, columns=("formula", "params", "purpose"), show="headings", height=14)
+            tree.heading("formula", text="Formula")
+            tree.heading("params", text="Parameters")
+            tree.heading("purpose", text="Purpose")
+            tree.column("formula", width=290, anchor="w")
+            tree.column("params", width=210, anchor="w")
+            tree.column("purpose", width=260, anchor="w")
+            vs = ttk.Scrollbar(tab, orient="vertical", command=tree.yview)
+            tree.configure(yscrollcommand=vs.set)
+            tree.pack(side="left", fill="both", expand=True)
+            vs.pack(side="left", fill="y")
+            self.formula_tabs[key] = tree
+
+        fig = Figure(figsize=(5.8, 4.8), dpi=100, facecolor=CLR_CARD)
+        self.ax_formula_diag = fig.add_subplot(111)
+        self.canvas_formula = FigureCanvasTkAgg(fig, master=right)
+        self.canvas_formula.get_tk_widget().pack(fill="both", expand=True)
+
+        self.formula_hint = tk.Label(right, bg=CLR_CARD, fg=CLR_TEXT2, anchor="w",
+                                     justify="left", font=("", 10))
+        self.formula_hint.pack(fill="x", pady=(6, 0))
+        self._refresh_formula_views()
+
+    def _refresh_formula_views(self):
+        if not hasattr(self, "formula_tabs"):
+            return
+        if self._lang_code == "zh":
+            tab_names = {
+                "geom": "几何与啮合",
+                "stress": "载荷与强度",
+                "fatigue": "寿命与损伤",
+            }
+            rows = {
+                "geom": [
+                    ("d1=(q+2*x1)*mn 或 d1=z1*mn/tan(beta)", "mn,q,x1,z1,beta", "计算蜗杆分度圆直径"),
+                    ("da1=d1+2*mn; df1=d1-2.4*mn", "d1,mn", "蜗杆齿顶/齿根圆直径"),
+                    ("d2=(z2+2*x2)*mn; da2=d2+2*mn*(1+x2)", "z2,x2,mn", "蜗轮主尺寸"),
+                    ("a=0.5*(d1+d2)", "d1,d2", "中心距"),
+                    ("gamma=atan(z1*mn/d1); px=pi*mn; pz=z1*px", "z1,mn,d1", "导程角与导程参数"),
+                ],
+                "stress": [
+                    ("E'=2/((1-nu1^2)/E1+(1-nu2^2)/E2)", "E1,E2,nu1,nu2", "赫兹接触等效弹性模量"),
+                    ("Ft=2*T1*1000/d1", "T1,d1", "圆周力"),
+                    ("Fn=Ft/(cos(alpha_n)*sin(gamma))", "Ft,alpha_n,gamma", "法向力"),
+                    ("rho_eq=0.5*d1*sin(alpha_n)*cos(gamma)", "d1,alpha_n,gamma", "等效曲率半径"),
+                    ("p_base=0.418*sqrt(Fn*KH*E'*1000/(rho_eq*b))", "Fn,KH,E',rho_eq,b", "接触应力基值"),
+                    ("sigma_base=Fn*KF*YF/(b*mn)", "Fn,KF,YF,b,mn", "齿根应力基值"),
+                ],
+                "fatigue": [
+                    ("N_life=n1*60*life_h/i", "n1,life_h,i", "寿命循环次数"),
+                    ("SF_root=sigma_allow(N_life)/max(sigma_F)", "SN表,sigma_F", "齿根安全系数"),
+                    ("SF_contact=p_allow(N_life)/max(p)", "SN表,p", "接触安全系数"),
+                    ("sigma_amp=(sigma_F_max-sigma_F_min)/2", "sigma_F", "等效应力幅"),
+                    ("D=n_cycles_total/N_allow(sigma_amp)", "sigma_amp,SN表", "Miner累积损伤"),
+                ],
+            }
+            hint = "右图是参数示意图：标注了 d1、d2、a、beta、alpha_n 和啮合接触点。"
+        else:
+            tab_names = {
+                "geom": "Geometry",
+                "stress": "Load & Stress",
+                "fatigue": "Life & Damage",
+            }
+            rows = {
+                "geom": [
+                    ("d1=(q+2*x1)*mn or d1=z1*mn/tan(beta)", "mn,q,x1,z1,beta", "worm pitch diameter"),
+                    ("da1=d1+2*mn; df1=d1-2.4*mn", "d1,mn", "worm tip/root diameters"),
+                    ("d2=(z2+2*x2)*mn; da2=d2+2*mn*(1+x2)", "z2,x2,mn", "wheel key diameters"),
+                    ("a=0.5*(d1+d2)", "d1,d2", "center distance"),
+                    ("gamma=atan(z1*mn/d1); px=pi*mn; pz=z1*px", "z1,mn,d1", "lead angle/pitch/lead"),
+                ],
+                "stress": [
+                    ("E'=2/((1-nu1^2)/E1+(1-nu2^2)/E2)", "E1,E2,nu1,nu2", "equivalent modulus"),
+                    ("Ft=2*T1*1000/d1", "T1,d1", "tangential force"),
+                    ("Fn=Ft/(cos(alpha_n)*sin(gamma))", "Ft,alpha_n,gamma", "normal force"),
+                    ("rho_eq=0.5*d1*sin(alpha_n)*cos(gamma)", "d1,alpha_n,gamma", "equiv. curvature radius"),
+                    ("p_base=0.418*sqrt(Fn*KH*E'*1000/(rho_eq*b))", "Fn,KH,E',rho_eq,b", "contact stress baseline"),
+                    ("sigma_base=Fn*KF*YF/(b*mn)", "Fn,KF,YF,b,mn", "root stress baseline"),
+                ],
+                "fatigue": [
+                    ("N_life=n1*60*life_h/i", "n1,life_h,i", "life cycles"),
+                    ("SF_root=sigma_allow(N_life)/max(sigma_F)", "SN,sigma_F", "root safety factor"),
+                    ("SF_contact=p_allow(N_life)/max(p)", "SN,p", "contact safety factor"),
+                    ("sigma_amp=(sigma_F_max-sigma_F_min)/2", "sigma_F", "equivalent stress amplitude"),
+                    ("D=n_cycles_total/N_allow(sigma_amp)", "sigma_amp,SN", "Miner cumulative damage"),
+                ],
+            }
+            hint = "The sketch marks d1, d2, a, beta, alpha_n and the mesh contact point."
+
+        for idx, key in enumerate(("geom", "stress", "fatigue")):
+            self.formula_nb.tab(idx, text=tab_names[key])
+            tree = self.formula_tabs[key]
+            for iid in tree.get_children():
+                tree.delete(iid)
+            for r in rows[key]:
+                tree.insert("", "end", values=r)
+
+        self.formula_hint.configure(text=hint)
+        self._draw_formula_schematic()
+
+    def _draw_formula_schematic(self):
+        if not hasattr(self, "ax_formula_diag"):
+            return
+        ax = self.ax_formula_diag
+        ax.clear()
+        ax.set_aspect("equal", adjustable="box")
+        ax.axis("off")
+        fp = {"fontfamily": _MPL_FONT or "DejaVu Sans"}
+
+        mn = self._safe_float("mn_mm", 2.5)
+        z1 = int(self._safe_float("z1", 2))
+        ratio = self._safe_float("ratio", 25)
+        z2 = int(round(ratio * z1))
+        try:
+            z2 = int(float(self.inputs["z2"].get()))
+        except (ValueError, TypeError):
+            pass
+        x1 = self._safe_float("x1", 0.0)
+        x2 = self._safe_float("x2", 0.0)
+        d1 = self._safe_float("d1_mm", 0.0)
+        if d1 <= 0:
+            d1 = (self._safe_float("q", 10) + 2 * x1) * mn
+        d2 = (z2 + 2 * x2) * mn
+        beta = self._safe_float("beta_deg", 11.5)
+        alpha = self._safe_float("alpha_n_deg", 20.0)
+        a = 0.5 * (d1 + d2)
+
+        s = 72.0 / max(d2, 1)
+        rw = 0.5 * d1 * s
+        rg = 0.5 * d2 * s
+        c1 = (0.0, 0.0)
+        c2 = (0.0, a * s)
+
+        ax.add_patch(mpatches.Circle(c1, rw, fill=False, edgecolor="#A35B55", linewidth=1.8))
+        ax.add_patch(mpatches.Circle(c2, rg, fill=False, edgecolor="#4F74B3", linewidth=1.8))
+        ax.plot([c1[0], c2[0]], [c1[1], c2[1]], color=CLR_DIM, linewidth=1.0, linestyle=(0, (4, 3)))
+        cp = (0.0, c2[1] - rg)
+        ax.scatter([cp[0]], [cp[1]], s=30, color="#111111")
+        ax.text(cp[0] + 2, cp[1] + 2, "P", fontsize=9, color="#111111", **fp)
+
+        ax.annotate("", xy=(rw + 8, c1[1]), xytext=(rw + 8, c2[1]),
+                    arrowprops=dict(arrowstyle="<->", color=CLR_DIM, lw=1.0))
+        ax.text(rw + 10, 0.5 * c2[1], "a", fontsize=9, color=CLR_DIM, rotation=90, va="center", **fp)
+        ax.annotate("", xy=(-rw, c1[1] - rw - 8), xytext=(rw, c1[1] - rw - 8),
+                    arrowprops=dict(arrowstyle="<->", color="#A35B55", lw=1.0))
+        ax.text(0, c1[1] - rw - 11, "d1", fontsize=9, color="#A35B55", ha="center", **fp)
+        ax.annotate("", xy=(-rg, c2[1] + rg + 8), xytext=(rg, c2[1] + rg + 8),
+                    arrowprops=dict(arrowstyle="<->", color="#4F74B3", lw=1.0))
+        ax.text(0, c2[1] + rg + 10, "d2", fontsize=9, color="#4F74B3", ha="center", **fp)
+
+        ang = math.radians(90 - alpha)
+        ax.plot([cp[0], cp[0] + 25 * math.cos(ang)], [cp[1], cp[1] + 25 * math.sin(ang)],
+                color="#6C707A", linewidth=1.0)
+        ax.text(cp[0] + 12, cp[1] + 13, "alpha_n", fontsize=8, color="#6C707A", **fp)
+        ax.text(c1[0] - rw - 8, c1[1] - 6, f"beta={beta:.1f} deg", fontsize=8, color="#A35B55", **fp)
+        ax.text(c1[0] + rw * 0.1, c2[1] + rg * 0.15, f"z1={z1}, z2={z2}", fontsize=8, color=CLR_TEXT2, **fp)
+        ax.set_xlim(-rg - 20, rg + 30)
+        ax.set_ylim(-rw - 18, c2[1] + rg + 18)
+        self.canvas_formula.draw()
+
+    # ==================================================================
     # Helpers
     # ==================================================================
     def _fill_tree_kv(self, tree, rows):
@@ -1410,6 +1590,7 @@ class App(tk.Tk):
             f"d2={m['d2_mm']:.2f} mm\n"
             f"a ={m['a_mm']:.2f} mm\n"
             f"eta0={m['eta0']:.3f}\n"
+            f"beta={m.get('beta_deg', m['gamma_deg']):.2f} deg\n"
             f"gamma={m['gamma_deg']:.2f} deg\n"
             f"px={m['px_mm']:.2f} mm\n"
             f"pz={m['pz_mm']:.2f} mm\n"
@@ -1434,6 +1615,8 @@ class App(tk.Tk):
             ("da1", f"{m['da1_mm']:.2f} mm"),
             ("df1", f"{m['df1_mm']:.2f} mm"),
             ("x1", f"{m['x1']:.3f}"),
+            ("q", f"{m.get('q', 0.0):.3f}"),
+            ("beta", f"{m.get('beta_deg', m['gamma_deg']):.2f} deg"),
             ("gamma", f"{m['gamma_deg']:.2f} deg"),
             ("px", f"{m['px_mm']:.2f} mm"),
             ("pz (lead)", f"{m['pz_mm']:.2f} mm"),
@@ -1474,6 +1657,7 @@ class App(tk.Tk):
         if m.get("a_target_mm") is not None:
             lines.append(f"  a_target={m['a_target_mm']:.2f}, da={m['delta_a_mm']:.2f} mm")
         lines.append(f"  x1={m['x1']:.3f}, x2={m['x2']:.3f}")
+        lines.append(f"  q={m.get('q', 0.0):.3f}, beta={m.get('beta_deg', m['gamma_deg']):.2f} deg")
         lines.append(f"  gamma={m['gamma_deg']:.2f} deg, px={m['px_mm']:.2f} mm")
         lines.append(f"  E'={m['Eprime_GPa']:.2f} GPa, eta0={m['eta0']:.3f}")
         lines.append(f"  KA={m['KA']:.3f} KV={m['KV']:.3f} KHb={m['KHb']:.3f} KFb={m['KFb']:.3f}")
